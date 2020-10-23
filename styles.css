@@ -1,0 +1,74 @@
+body{
+    font-family: arial,sans-serif;
+  
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    
+
+}
+nav li{
+    list-style-type: none;
+    
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main{
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.google-apps{
+   
+    height: 72px;
+    width: 72px;
+}
+
+
+#user{
+    width: 100%;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.profile{
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background: #f2f2f2;
+    /* line-height: 40px; */
+    border-top: 1px solid #e4e4e4;
+    min-width: 400px;
+    height: 105px;
+
+}
+.info{
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+}
+
+.country{
+    line-height: 40px;
+}
+
